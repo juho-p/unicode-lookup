@@ -1,0 +1,6 @@
+[package]
+name = "unicode-lookup"
+version = "0.1.0"
+authors = ["Juho Peltonen <juhopel@gmail.com>"]
+
+[dependencies]
