@@ -1,6 +1,6 @@
 import unicodedata
 
-AMOUNT = 1024*1024
+AMOUNT = 0x110000
 
 def gather():
     for value in range(AMOUNT):
@@ -12,4 +12,4 @@ def gather():
             pass
 
 for name, c in gather():
-    print(name, c, sep=';')
+    print(c, name, sep=' ')
